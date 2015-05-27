@@ -281,6 +281,10 @@ class Odfl
     @resultHash[:destination_service_center]
   end
 
+  def getDestinationCities
+    @resultHash[:destination_cities]
+  end
+
   # Return the estimate information
   def get_estimate
     @resultHash[:rate_estimate]
